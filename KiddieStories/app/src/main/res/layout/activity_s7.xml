@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".s7">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Story Of Three Pots "
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp" />
+
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Once there lived a pot maker named Murari in a village called Mahadevpur. He would make pots, sells them in the market and with that earnings, he would raise his family. He had three pots in his home.
+One day the three were talking to each other like this,
+“friends, we have been friends like this for a very long time. I wish from my whole heart to live together like this forever. I wish to say, my dear friend.
+“But I don’t wish to live here anymore. How long should we stay here in a poor family like this? I wish someone to take me from here.“
+When the three pots were talking to each other, a rich man arrives at the pot maker. “listen, man, I want one nice good pot.”
+Murari replied, “See sir, I don’t have a good pot or a bad pot. All the pots are good. Whichever you want you can take it, sir, please don’t mind.”
+"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_20" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="The rich man said, “I don’t want a new pot but I want an old one.”
+An old one, but sir I have all the new pots except the three pots which I am already using.
+“Whatever it is I want an old pot.” the man was firm on his word.
+Murari had no choice but to show him the three pots.
+Amongst the three the rich man chose the third pot. On this the third pot says to the other two, “look my wish is fulfilled, I am going with a rich man.”
+Now saying this the third pot feels happy. The rich man pays money to Murari and takes the pot home.
+The pot feels very happy to be there.
+Days go by, one day when the owner was filling the water in the pot, the pot gets broken from the top.
+The rich man said himself, “oh, I brought this old pot thinking it will be stronger when compared to the new one. But look at this, it’s broken, now it is of no use to me, I should throw it.“
+The rich man keeps the pot away from home. The pot feels so sad and says to itself, “oh no, what should I do now? He left me abandoned. I was happy with my friends, but now I have no one to be called as mine.”
+The pot sadly cries. Just then an old man passes by and sees the pot. He lifts the pot and takes it home.
+While the man was walking towards home, the pot thinks in its mind where he might be taking a broken pot like me. The old man keeps it home, fills water in it regularly and drinks every day.
+"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_21" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="The pot asks the old man, “Sir, I am broken and I don’t look good, why did you bring me home? You could have bought a new one for yourself.”
+The man replied, “Uh, I can’t afford to buy a new pot and if you are broken you are satisfying my thirst. That’s more important. Moreover, one’s appearance matters nothing as long they are beneficial to others. Remember it, okay! Appearance is not at all a matter.“
+The pot said, “You are absolutely right Sir, I was wrong. I always thought staying with the rich man will increase my value. But the truth is it doesn’t matter where we are, it is important how much we are beneficial for them.”
+"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_19" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="The pot gets its lesson. Since then it starts living happily.
+After a few days, the old man brings the other two pots home. Pot three felt happy to see them and asked, “Prince, how come you both are here?”
+Other posts replied, “we got scratches on us. Our owner kept us away from home. This kind old man brought us here.”
+Meanwhile, the old man gets two plants and puts them in both the pots and waters them every day. Friend, you wanted to go with the rich man to be happy. But finally, the poor old man, made you realise you are still beneficial when the rest of the people thought you are useless. Not only you but also to us. Now I understood looks are not important but what we do for others is, be it rich or poor. Since then the three friends stick together happily with the old man.
+"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

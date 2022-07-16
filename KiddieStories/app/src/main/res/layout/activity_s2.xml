@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".s2">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Ant and the Grasshopper"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+android:text="Once there lived an ant and a grasshopper in a grassy meadow.All day long the ant would work hard, collecting grains of wheat from the farmer’s field far away. She would hurry to the field every morning, as soon as it was light enough to see by, and toil back with a heavy grain of wheat balanced on her head. She would put the grain of wheat carefully away in her larder, and then hurry back to the field for another one. All day long she would work, without stop or rest, scurrying back and forth from the field, collecting the grains of wheat and storing them carefully in her larder.The grasshopper would look at her and laugh. ‘Why do you work so hard, dear ant?’ he would say. ‘Come, rest awhile, listen to my song. Summer is here, the days are long and bright. Why waste the sunshine in labour and toil?’ The ant would ignore him, and head bent, would just hurry to the field a little faster.
+">
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_7" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+android:text="This would make the grasshopper laugh even louder. ‘What a silly little ant you are!’ he would call after her. ‘Come, come and dance with me! Forget about work! Enjoy the summer! Live a little!’ And the grasshopper would hop away across the meadow, singing and dancing merrily.
+Summer faded into autumn, and autumn turned into winter. The sun was hardly seen, and the days were short and grey, the nights long and dark. It became freezing cold, and snow began to fall.
+The grasshopper didn’t feel like singing any more. He was cold and hungry. He had nowhere to shelter from the snow, and nothing to eat. The meadow and the farmer’s field were covered in snow, and there was no food to be had. ‘Oh what shall I do? Where shall I go?’ wailed the grasshopper.
+"></TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_8" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+android:text="Suddenly he remembered the ant. ‘Ah – I shall go to the ant and ask her for food and shelter!’ declared the grasshopper, perking up. So off he went to the ant’s house and knocked at her door.
+ ‘Hello ant!’ he cried cheerfully. ‘Here I am, to sing for you, as I warm myself by your fire, while you get me some food from that larder of yours!’The ant looked at the grasshopper and said, ‘All summer long I worked hard while you made fun of me, and sang and danced. You should have thought of winter then! Find somewhere else to sing, grasshopper! There is no warmth or food for you here!’ And the ant shut the door in the grasshopper’s face.
+"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

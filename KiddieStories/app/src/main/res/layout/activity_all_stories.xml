@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/background" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AllStories">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="8dp"
+                android:background="@color/white"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="s1"
+                android:orientation="vertical">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Elephant and Friends"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/s1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="8dp"
+                android:background="@color/white"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="s2"
+                android:orientation="vertical">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Ant and the Grasshopper"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/s2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="8dp"
+                android:background="@color/white"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="s3"
+                android:orientation="vertical">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Wolf and the 3 Sheep"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/s3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="8dp"
+                android:background="@color/white"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="s4"
+                android:orientation="vertical">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Mouse and the Bull"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/s4"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="8dp"
+                android:background="@color/white"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="s5"
+                android:orientation="vertical">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Frog Prince"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/s5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="8dp"
+                android:background="@color/white"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="s6"
+                android:orientation="vertical">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pinocchio"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/s6"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="8dp"
+                android:background="@color/white"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="s7"
+                android:orientation="vertical">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Story of the Three Pots"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/s7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="8dp"
+                android:background="@color/white"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="s8"
+                android:orientation="vertical">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Ant and the Dove"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/s8"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="8dp"
+                android:background="@color/white"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="s9"
+                android:orientation="vertical">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Hungry Fox"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/s9"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="8dp"
+                android:background="@color/white"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="s10"
+                android:orientation="vertical">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Horse and the Snail"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/s10"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

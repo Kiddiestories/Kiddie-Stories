@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".s6">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pinocchio"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="A long time ago, in small-town, there lived an old Toymaker named Geppetto. He used to make wooden toys, and sell them. One day he decided to create the beautiful puppet boy. Geppetto searched for a fine log in the forest and soon found a small pine log. He started to carve.
+Geppetto finally finished the beautiful puppet boy. He made him sit on a chair and started to clean up.
+He heard a strange voice, he saw the puppet dancing and talking. Geppetto took the puppet in his arm and named him Pinocchio. Geppetto and Pinocchio started to have happy times together. It was time for Pinocchio to go to school but Geppetto didn't have money to buy Pinocchio his school stationery. So, he sold this old coat and gave the money to Pinocchio. He took the money and went to school with joy. Suddenly, he saw a crowd ahead. He slowly managed to make his way to the front to find what it was. He saw a big colorful tent, it was a circus tent. Pinocchio gave money to the clown and entered the circus.
+">
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_15" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="The circus owner saw him dancing in the crowd, he got hold of him and locked him in a cage. Pinocchio started to cry regretting his mistakes. Suddenly a Fairy appeared and released him from the cage. She gave back his money and warned him not to do the same mistake again.
+Pinocchio was on his way to school again. Seeing Pinocchio with money the cunning fox and his friend cat stopped him and asked him where he was going?. Pinocchio said he was going to buy some school stationery. The fox said, “This money is not enough to buy it, give your money lets plant it in the magical garden and get more money.” Poor Pinocchio gave his money to the fox. The fox and the cat left the place. He was standing alone for a long time. The fairy appeared and asked Pinocchio about the money. Pinocchio said,” I kept my stationeries at school.” As soon as Pinocchio finished his sentence his nose started to grow. The fairy asked him “Are you saying the truth.” As Pinocchio kept on lying his nose started growing.
+">            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Finally, Pinocchio realized his mistake and told what happened. As he told the truth, the fairy brought his nose back to normal. She said, “I am forgiving you because you told the truth” and gave back his money the fox had taken, and she once more warned him not to waste his money. Pinocchio started to walk, on the way he saw the circus owner. He was very angry with Pinocchio, he wanted to punish him. He caught Pinocchio and threw him into the sea.
+Pinocchio started to swim towards the shore; Suddenly, he was swallowed by a giant whale. Geppetto was worried about Pinocchio and went out to search for him. He heard from the fisherman that Pinocchio fell into the sea. He was so worried. He borrowed a small boat from the fisherman and went into the sea. In the middle of the sea, a big wave hit the boat, and Geppetto fell in the sea. He was old and does know to swim, he drowned.
+At that very moment the big whale that swallowed Pinocchio, swallowed Geppetto too. He went straight into its stomach.
+">            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_17" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="He saw Pinocchio crying there. Pinocchio hugged Geppetto in tears. He said sorry for not obeying him.
+Suddenly the fairy appeared and rescued them. After that, Pinocchio became a very clever boy and always listened to his father. He went to school every day and after school, he ran home to help his father in his workshop. The fairy saw what a nice boy Pinocchio became and decided to give him a prize. The fairy cast a spell and turned Pinocchio into a normal boy. Seeing Pinocchio as a real boy made Geppetto very happy. Pinocchio never lied again, and his nose always stayed where it was.
+">            </TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

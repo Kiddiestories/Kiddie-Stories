@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".s10">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THE HORSE AND THE SNAIL"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp" />
+
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Once upon a time, there lived a horse in a big jungle. He was very proud of himself.
+He saw a snail/ seeing how slowly the snail moved, the horse started teasing him.
+“Hey, snail! Shall we have a race?” the horse asked. The snail was very angry with the horse. “Okay! Let’s do it! We will race on Sunday,” said the snail. The snail went home and called all the snails to discuss this issue. He told everyone about the race. They made a plan to outsmart the horse. Since all the snails looked alike, they decided to confuse the horse with their intelligence. When Sunday came, they left home very early.
+"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_24" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="They started in place in little distance from each other all the starting point to the finishing line. The race started. The horse ran a little and then looked down. He saw the snail ahead of him the horse increased his pace but the snail was still ahead.
+The horse started running harder and faster.
+However hard the horse tried, the snail was still ahead of him. The poor horse finally gave up after trying really hard.
+“Okay! I lose!” said the humble horse. The snail laughed out loudly. Ha Ha Ha Ha!
+"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

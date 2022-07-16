@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".s3">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The wolf and the 3 sheep"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Surly, Burly and curly were three sheep brothers they lived in a beautiful house.
+One day a wicked wolf came to live close to the house
+This scared the sheep brothers the eldest brother said “the wolf could attack us any time we need to be prepared this house won’t protect us” the little brothers was agreed.
+Hence they decided to build a stronger house.
+One day the wolf approached the house with the intention of feasting the three brothers.
+"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_9" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="He knocked the door but the door did not open “huh if you would not open the door then I will break it” he started banging his head on the door but the door did not break at all.
+The wolf was frustrating but wasn’t ready to give up he claimed onto the roof of the house and tried enter through the chimney.
+However the sheep brothers were too smart to fool the wolf they arranged lucks in the fireplace and set fire.
+The wolf jumped through the chimney and landed directly into the fire place the smart sheep got rid from wolf.
+">
+
+            </TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

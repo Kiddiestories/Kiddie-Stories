@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".s5">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Frog Prince"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Once upon a time, there was a beautiful princess in a big castle. One day her father the king gave her a golden ball as a birthday present. 
+                One evening she went out with her ball and started to play with it. While she was tossing the ball in the garden near the pond it fell into the pond and stink it to deep waters. 
+            "></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_13" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="The frog came and sat next to the princess plate and started to eat from her plate.
+After the dinner, the frog followed the princess to her bedroom and demanded to sleep next to her in the bed. Afraid to upset her father the princess had to say yes. The frog jumped to the bed and slept next to the princess.
+Next morning the frog wake the princess up and said he has another wish, if she does it he will leave her. The princess was happy and asked what is the wish. The frog said, I want you to kiss me, my princess. The princess was shocked. Then she thought its just a kiss and evidently she won't see him ever again, and so she gave him a kiss.
+            As soon as she kissed the frog a bright white light covered the room, a while later she saw a handsome prince standing in front of her.
+            She couldn't believe her eyes, and so she asked who are you? What happened to the frog?. The prince said, My beautiful princess I am the prince of a land far away, the evil witch cast a spell on me and turned me into a frog to break the spell I have to spent one night next to a princess and get a kiss from her.
+            Both went to the king and explained everything. The prince asked the princess to marry her, they got married and lived happily ever after.
+            "></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_14" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".s8">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Ant And The Dove"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp" />
+
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Here is one of the best short inspirational stories for kids. One hot day, an ant was walking near a river bank.
+The poor ant lost her balance and fell inside the water. “Ahh help me! help me!” the ant cried. She screamed for help. As the flow of the river was too strong, she was carried away. “Someone please help me,” she shouted.
+A dove was watching all this from a nearby tree. The ant was struggling for life in the water. The dove felt very sad for the little ant. The ant was continuously screaming for help. “Oh no, the little ant is in trouble,” the dove wondered. The dove decided to help the ant. He said to ant, “Don’t worry my friend! I will save you!”
+The dove quickly plucked off a leaf and dropped it into the water near the struggling ant. The ant moved towards the leaf and climbed up there. And the ant reached to the shore safely. The thankful ant said, “I will always be grateful to you for saving my life!”
+Few weeks later, the ant saw a bad hunter with the gun. The hunter was targeting at the dove sitting on the tree. Guessing what he was about to do, the ant quickly bit him on the heel.
+“Ouch! You pathetic ant! What have you done?” the hunter yelled. The ant walked away happily as she was able to help the dove in return.
+"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_22" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

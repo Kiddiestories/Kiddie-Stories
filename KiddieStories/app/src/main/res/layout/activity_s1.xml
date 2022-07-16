@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".s1">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elephant and Friends Story "
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/s1" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="A lone elephant wandered the forest looking for friends. She came across a monkey and asked, “Will you be my friend, monkey?” “You are too big and cannot swing on trees as I do. So I cannot be your friend”, said the monkey.">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_3" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+               android:text="The elephant them came across a rabbit and asked him if she could be his friend. “You are too big to fit inside my burrow. You cannot be my friend”, replied the rabbit. Then the elephant met a frog and asked if she could be her friend. The frog said “You are too big and heavy. You cannot jump like me. I am sorry, but you cannot be my friend”. ">
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_4" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+android:text="The elephant asked a fox, and he got the same reply, that he was too big. The next day, all the animals in the forest were running in fear.">
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_5" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+android:text="The elephant stopped a bear and asked what was happening and was told that a tiger has been attacking all the animal. The elephant wanted to save the other weak animals and went to the tiger and said “Please sir, leave my friends alone. Do not eat them”.">
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_6" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+android:text="The tiger didn’t listen and asked the elephant to mind her own business. Seeing no other way to solve the problem, the elephant kicked the tiger and scared it away. She then went back to the others and told them what happened. On hearing how the elephant saved their lives, the animals agreed in unison, “You are just the right size to be our friend">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".s4">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Mouse And The Bull "
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+android:text="Once in a summer afternoon a mouse came out of his hole and saw a bull fast asleep under a tree. The loud snoring of the bull evoked the curiosity of the mouse.
+He came close to the bull and saw the large nostrils. The inquisitive mouse entered into it and bit inside just for the fun.
+The bull awoke and bellowed in pain. The frightened mouse ran from there. The angry bull chased him with all his might. The mouse ran fast and managed to get into a hole of nearby wall.
+However, the raged bull was not ready to give up. He angrily bellowed, “You little silly creature, I will teach you a lesson for daring to trouble a mighty bull.”
+The mouse said, “O mighty bull, I didn’t want to trouble you. I bit you just for the fun.”  But the bull was intent on punishing the tiny mouse.
+He angrily dashed his head against the wall. The wall was strong. The bull dashed the wall many times but it did not give away. Observing his anger and depression, the mouse mocked,
+">
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_10" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+android:text="“You foolish mighty thing! Why are you breaking your head just for a trivial matter? It’s not always necessary that you strong, big fellows would get everything you wish.”
+The bull did not like it. However he realized the truth in the words of the mouse. So he walked away quietly from there.
+">            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_12" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
